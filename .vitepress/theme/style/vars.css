@@ -1,0 +1,57 @@
+/**
+ * VitePress 主题色自定义
+ * 主色: #409EFF
+ */
+
+:root {
+  /* 品牌色 */
+  --vp-c-brand-1: #409EFF;
+  --vp-c-brand-2: #3375c2;   /* 主色加深，用于悬停 */
+  --vp-c-brand-3: #79bbff;   /* 主色减淡，用于高光 */
+  --vp-c-brand-soft: rgba(64, 158, 255, 0.15); /* 柔和背景色 */
+
+  /* 按钮 */
+  --vp-button-brand-bg: var(--vp-c-brand-1);
+  --vp-button-brand-hover-bg: var(--vp-c-brand-2);
+  --vp-button-brand-active-bg: var(--vp-c-brand-2);
+  --vp-button-brand-border: transparent;
+  
+  /* 首页功能卡片 */
+  --vp-custom-block-tip-border: var(--vp-c-brand-1);
+  --vp-custom-block-tip-text: var(--vp-c-brand-1);
+  --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
+  
+  /* 代码块相关 (可选) */
+  --vp-code-color: var(--vp-c-brand-1); /* 行内代码颜色 */
+  --vp-code-link-color: var(--vp-c-brand-1);
+  --vp-code-link-hover-color: var(--vp-c-brand-2);
+  
+  /* 导航栏和侧边栏高亮 */
+  --vp-nav-height: 64px;
+}
+
+/* 暗黑模式 */
+.dark {
+  --vp-c-brand-1: #409EFF;
+  --vp-c-brand-2: #79bbff;   /* 暗色模式下使用更亮的颜色作为悬停 */
+  --vp-c-brand-3: #a6d4ff;   /* 暗色模式下用于高光 */
+  --vp-c-brand-soft: rgba(64, 158, 255, 0.2);
+
+  /* 暗色模式下的按钮微调 */
+  --vp-button-brand-bg: var(--vp-c-brand-1);
+  --vp-button-brand-hover-bg: var(--vp-c-brand-2);
+  
+  /* 暗色模式下的提示块背景可以更深一些 */
+  --vp-custom-block-tip-bg: rgba(64, 158, 255, 0.1);
+}
+
+/* 首页英雄部分文字颜色 (可选，使文字在品牌色上更清晰) */
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(135deg, #409EFF 0%, #79bbff 100%);
+}
+
+/* 自定义滚动条颜色 (可选) */
+:root {
+  --vp-custom-scrollbar-thumb: var(--vp-c-brand-soft);
+}

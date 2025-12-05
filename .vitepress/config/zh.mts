@@ -1,5 +1,6 @@
 import { defineConfig } from "vitepress";
-import pkg from "../../package.json";
+import { getLatestVersion } from "../utils/getLatestVersion";
+
 
 export const zh = defineConfig({
   lang: "zh-CN",
@@ -8,7 +9,7 @@ export const zh = defineConfig({
     nav: [
       { text: "指南", link: "/zh/guide/intro/what-is-bridge", activeMatch: "/guide" },
       {
-        text: `v${pkg.version}`,
+        text: await getLatestVersion(),
         items: [
           {
             text: "更新日志",

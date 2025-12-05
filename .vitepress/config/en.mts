@@ -1,5 +1,5 @@
 import { defineConfig } from "vitepress";
-import pkg from "../../package.json";
+import { getLatestVersion } from "../utils/getLatestVersion";
 
 export const en = defineConfig({
   lang: "en-US",
@@ -8,7 +8,7 @@ export const en = defineConfig({
     nav: [
       { text: "Guide", link: "/guide/intro/what-is-bridge", activeMatch: "/guide" },
       {
-        text: `v${pkg.version}`,
+        text: await getLatestVersion(),
         items: [
           {
             text: "Changelog",

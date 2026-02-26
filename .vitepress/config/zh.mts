@@ -38,8 +38,7 @@ export const zh = defineConfig({
           collapsed: false,
           items: [
             { text: "文件同步", link: "/zh/guide/feature/file-sync" },
-            { text: "文件分享", link: "/zh/guide/feature/share-hub" },
-            { text: "下载器", link: "/zh/guide/feature/downloader" },
+            { text: "共享空间", link: "/zh/guide/feature/shared-zone" },
           ],
         },
       ],

@@ -37,8 +37,7 @@ export const en = defineConfig({
           collapsed: false,
           items: [
             { text: "File Sync", link: "/guide/feature/file-sync" },
-            { text: "Share Hub", link: "/guide/feature/share-hub" },
-            { text: "Downloader", link: "/guide/feature/downloader" },
+            { text: "Shared Zone", link: "/guide/feature/shared-zone" },
           ],
         },
       ],

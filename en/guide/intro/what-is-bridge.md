@@ -9,6 +9,8 @@ title: What is Bridge?
 
 > ⚡ Making file backup, sharing, and downloading as intuitive and effortless as breathing.
 
+
+
 ## ✨ Core Features
 
 ### 📁 File Comparison & Synchronization
@@ -23,15 +25,15 @@ Offers three flexible synchronization strategies:
 
 ### 🌐 LAN File Sharing
 
-Automatically discovers devices on the same network via UDP broadcast.
+Automatically discovers allowed devices on the same network.
 
-Securely share local files—receivers download using a unique file ID through the built-in HTTP service, without exposing the actual file path.
+Select the file you want to transfer, click on the online device, and wait for the recipient to confirm receipt before sending the file.
 
-### ⬇️ Integrated Download Management
+And there's One More Thing: Enable clipboard sharing, and you'll share your clipboard with devices on the local network.
 
-Built-in **Aria2** download engine with comprehensive support for HTTP, FTP, BitTorrent, and other protocols.
+> Clipboard sharing currently supports sharing images and text.
 
-Unified management for both internet downloads and LAN shared transfers, with an intuitive and clear interface.
+
 
 ## 🎯 Design Philosophy
 
@@ -40,6 +42,8 @@ Bridge aims to solve pain points in cross-device file management:
 - **Simple & Easy to Use**: No complex configuration required, works out of the box
 - **Efficient & Smart**: Intelligent differential comparison avoids unnecessary data transfer
 - **Cross-Platform Consistency**: Provides a unified user experience across different operating systems
+
+
 
 ## 📦 Tech Stack
 

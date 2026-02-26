@@ -24,10 +24,7 @@ features:
     details: Auto-generates a differential file tree for precise synchronization.
   - title: LAN File Sharing
     icon: ✈️
-    details: Auto-discovers devices and enables secure, path-hidden transfers.
-  - title: Download Manager
-    icon: ⬇️
-    details: Built-in download engine supporting multiple protocols with a unified interface.
+    details: Auto-discovers devices and enables secure.
   - title: Cross-Platform Support
     icon: 💻
     details: Runs seamlessly on Windows, macOS, and Linux with consistent user experience.

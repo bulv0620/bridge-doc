@@ -22,11 +22,11 @@ features:
   - title: 文件比对与同步
     icon: 📁
     details: 自动生成差异文件树，轻松实现精准同步。
-  - title: 局域网文件共享
+  - title: 局域网共享
     icon: ✈️
-    details: 自动发现设备，安全共享。
+    details: 自动发现设备，快速发送文件、共享剪切板。
   - title: 跨平台支持
     icon: 💻
-    details: 支持 Windows、macOS 和 Linux，提供一致的用户体验
+    details: 支持 Windows、macOS 和 Linux 多种平台
 ---
 

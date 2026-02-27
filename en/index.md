@@ -22,9 +22,9 @@ features:
   - title: File Comparison & Sync
     icon: 📁
     details: Auto-generates a differential file tree for precise synchronization.
-  - title: LAN File Sharing
+  - title: LAN Sharing
     icon: ✈️
-    details: Auto-discovers devices and enables secure.
+    details: Transfer files and share the clipboard with devices on the same network..
   - title: Cross-Platform Support
     icon: 💻
     details: Runs seamlessly on Windows, macOS, and Linux with consistent user experience.
